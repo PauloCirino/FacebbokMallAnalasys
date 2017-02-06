@@ -1,0 +1,124 @@
+---
+title: "Facebook e o Shopping São Luis"
+author: "ENACOM"
+date: "23/01/2017"
+output:
+  ioslides_presentation:
+    transition: slower
+    widescreen: yes
+  beamer_presentation: default
+---
+
+---
+
+```{r setup, include=FALSE, echo = FALSE, message = FALSE, background=TRUE}
+knitr::opts_chunk$set(echo = FALSE, eval = TRUE, fig.width = 10,  message = FALSE, background=TRUE, warning = FALSE, cache = TRUE, include = FALSE)
+
+require('dplyr')
+require('ggplot2')
+require('plotly')
+require('DT')
+require('reshape')
+require('RColorBrewer')
+require('lubridate')
+
+city <- 'Manaus'
+print('foo')
+```
+
+```{r}
+mallsTable <- read.csv('./../../Data/MallsTable.csv')
+cityMalTable <- mallsTable %>% dplyr::filter(City == city)
+FbIds <- cityMalTable %>%
+    dplyr::select(FbID) %>%
+    unlist() %>%
+    as.character()
+write(x = FbIds, file = './mallsIDs.txt')
+```
+
+```{bash}
+python ./../../WebScrapping/AnalyserScrapper.py mallsIDs.txt
+```
+
+```{r}
+analyserTable <- read.csv(file = './analyserData.csv')
+
+analyserTable <- analyserTable %>%
+dplyr::mutate(
+UserName = as.character(UserName),
+MileStones = ifelse(MileStones == 1, 'Informado', 'Não Informado'),
+Timming = ifelse (
+Timming == 'Slightly off.',
+'Muito fora!',
+ifelse (Timming == 'Perfect timing!',
+'Perfeito!',
+'Um pouco fora.')
+),
+LengthOfPosts = ifelse(
+LengthOfPosts ==  'Between 100 and 500 characters.',
+'Entre 100 e 500 caracteres.',
+ifelse(
+LengthOfPosts == 'Less than 100 characters.',
+'Menos de 100 caracteres.',
+'NA'
+)
+),
+Hashtags = ifelse(Hashtags == 'Using.',
+'Em uso.',
+'Não Utilizadas.'),
+Website = ifelse(Website == 'Not specified',
+'Não Informado',
+'Informado')
+)
+
+rownames(analyserTable) <- as.character(analyserTable$PageName)
+
+analyserTable <- analyserTable %>%
+dplyr::select(
+Likes,
+EngagementRate,
+LikesGrowth,
+PTAT,
+AvgPostsPerDay,
+LengthOfPosts,
+AvgLikesCommentsSharesPerPosts,
+Timming,
+Website,
+MileStones,
+Hashtags
+)
+
+originalNames <- names(analyserTable)
+
+names(analyserTable) <- c(
+'Likes',
+'Taxa de Engajamento',
+'Crescimento de Likes',
+'PTAT',
+'Posts p/ dia',
+'Tamanho dos Posts',
+'Egajamento p/ Post',
+'Timming',
+'Website',
+'Marcos',
+'Hashtags'
+)
+```
+
+```{r mallSummary1}
+DT::datatable(mallTableAnalyser,
+              extensions = 'FixedColumns',
+              options = list(
+                scrollX = TRUE,
+                scrollY = TRUE,
+                scrollCollapse = TRUE,
+                autoWidth = TRUE,
+                paging = FALSE,
+                columnDefs = list(list(width = "200px",
+                                       targets = "_all")),
+                fixedColumns = list(leftColumns = 1)
+              )
+)
+```
+
+

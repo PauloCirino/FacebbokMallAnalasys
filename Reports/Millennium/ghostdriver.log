@@ -1,0 +1,142 @@
+[INFO  - 2017-02-06T17:20:30.703Z] GhostDriver - Main - running on port 52199
+[INFO  - 2017-02-06T17:20:30.800Z] Session [8f79f8c0-ec90-11e6-ada9-0bfdf49a070c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-02-06T17:20:30.800Z] Session [8f79f8c0-ec90-11e6-ada9-0bfdf49a070c] - page.customHeaders:  - {}
+[INFO  - 2017-02-06T17:20:30.800Z] Session [8f79f8c0-ec90-11e6-ada9-0bfdf49a070c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-02-06T17:20:30.801Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8f79f8c0-ec90-11e6-ada9-0bfdf49a070c
+[ERROR - 2017-02-06T17:20:47.762Z] Session [8f79f8c0-ec90-11e6-ada9-0bfdf49a070c] - page.onError - msg: SecurityError: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-06T17:20:47.762Z] Session [8f79f8c0-ec90-11e6-ada9-0bfdf49a070c] - page.onError - stack:
+  open (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  o (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  o (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  send (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  onpage (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  emit (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  _invoke (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  page (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  i (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  e (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-06T17:21:03.836Z] Session [8f79f8c0-ec90-11e6-ada9-0bfdf49a070c] - page.onError - msg: SecurityError: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-06T17:21:03.836Z] Session [8f79f8c0-ec90-11e6-ada9-0bfdf49a070c] - page.onError - stack:
+  open (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  o (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  o (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  send (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  onpage (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analy[INFO  - 2017-02-06T17:21:59.742Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-02-06T17:26:59.751Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+s/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  page (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  i (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  e (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-06T17:21:13.604Z] Session [8f79f8c0-ec90-11e6-ada9-0bfdf49a070c] - page.onError - msg: SecurityError: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-06T17:21:13.604Z] Session [8f79f8c0-ec90-11e6-ada9-0bfdf49a070c] - page.onError - stack:
+  open (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  o (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  o (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  send (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  onpage (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  emit (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  _invoke (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  page (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  i (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  e (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-06T17:21:20.239Z] Session [8f79f8c0-ec90-11e6-ada9-0bfdf49a070c] - page.onError - msg: SecurityError: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-06T17:21:20.239Z] Session [8f79f8c0-ec90-11e6-ada9-0bfdf49a070c] - page.onError - stack:
+  open (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  o (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  o (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  send (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  onpage (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  emit (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  _invoke (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  page (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  i (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  e (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-06T17:21:25.740Z] Session [8f79f8c0-ec90-11e6-ada9-0bfdf49a070c] - page.onError - msg: SecurityError: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-06T17:21:25.741Z] Session [8f79f8c0-ec90-11e6-ada9-0bfdf49a070c] - page.onError - stack:
+  open (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  o (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  o (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  send (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  onpage (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  emit (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  _invoke (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  page (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  i (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  e (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-06T17:21:37.489Z] Session [8f79f8c0-ec90-11e6-ada9-0bfdf49a070c] - page.onError - msg: SecurityError: DOM Exception 18: An attempt was made to break through the security policy of the user agent.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-06T17:21:37.490Z] Session [8f79f8c0-ec90-11e6-ada9-0bfdf49a070c] - page.onError - stack:
+  open (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  o (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  o (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  send (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  onpage (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:5)
+  emit (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  _invoke (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  page (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:7)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  i (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  e (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+  (anonymous function) (http://cdn.segment.com/analytics.js/v1/wCVPCOnEQqWVDPlmfZtwESsrUlAX814E/analytics.min.js:1)
+
+  phantomjs://platform/console++.js:263 in error
